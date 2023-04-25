@@ -1,0 +1,25 @@
+body{
+  background-image: linear-gradient(90deg, rgb(223, 90, 189), rgb(140, 2, 153));
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #countdown {
+    display: flex;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  
+  .time {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  span {
+    display: block;
+    font-weight: bold;
+  }
+  
